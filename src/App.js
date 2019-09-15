@@ -50,7 +50,7 @@ const destinations = [
     modern skyscrapers in the city center.`,
     color: 'white',
     bg: { r: 150, g: 100, b: 100 },
-    image: '/WAW.jpg',
+    image: require('./img/WAW.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
@@ -68,7 +68,7 @@ const destinations = [
     Rijksmuseum with collections of masters such as Rembrandt and Vermeer.`,
     color: 'white',
     bg: { r: 150, g: 100, b: 100 },
-    image: '/AMS.jpg',
+    image: require('./img/AMS.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
@@ -86,7 +86,7 @@ const destinations = [
     of the restaurants and enjoy the dishes made of fresh ingredients, usually caught the same day.`,
     color: 'white',
     bg: { r: 150, g: 100, b: 100 },
-    image: '/BCN.jpg',
+    image: require('./img/BCN.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
@@ -103,7 +103,7 @@ const destinations = [
     specimens, and the National Park that is home to 270 species of birds.`,
     color: 'white',
     bg: { r: 150, g: 100, b: 100 },
-    image: '/VNO.png',
+    image: require('./img/VNO.png'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
@@ -122,7 +122,7 @@ const destinations = [
     New Zealand, prepared with partner airlines with a convenient transfer in Singapore.`,
     color: 'white',
     bg: { r: 150, g: 150, b: 100 },
-    image: '/BKK.jpg',
+    image: require('./img/BKK.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/4/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/5/', name: 'Tobias' },
@@ -143,7 +143,7 @@ const destinations = [
     Singapore.`,
     color: 'white',
     bg: { r: 100, g: 150, b: 150 },
-    image: '/KUL.jpg',
+    image: require('./img/KUL.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/7/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/8/', name: 'Tobias' },
@@ -163,7 +163,7 @@ const destinations = [
     Asian region - India, China or Arab countries - with every meal.`,
     color: 'white',
     bg: { r: 140, g: 120, b: 160 },
-    image: '/SIN.jpg',
+    image: require('./img/SIN.jpg'),
     friends: [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
