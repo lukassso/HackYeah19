@@ -7,7 +7,7 @@ import Panel from '@lot-edge/components/Panel';
 import GuidePage from '@lot-edge/components/GuidePage';
 
 function App() {
-  const [selectedCategory, select] = useState('Europe')
+  const [selectedCategory, select] = useState('Poland')
   const visibleDestinations = destinations.filter(d => d.category === selectedCategory)
   visibleDestinations.reverse()
   return (
@@ -28,9 +28,25 @@ function App() {
   );
 }
 
-const categories = ['Europe', 'Asia']
+const categories = ['Poland', 'Europe', 'Asia']
 
 const destinations = [
+  {
+    category: 'Poland',
+    title: 'Warsaw',
+    description: `Warsaw is a city that combines history and modernity. When visiting the capital of Poland, it is worth
+    seeing the Museum of the Warsaw Uprising, which, through multimedia presentations, tells the story
+    of the insurgents. Take a chance to get lost in the historic streets of the Old Town or in the thicket of
+    modern skyscrapers in the city center.`,
+    color: 'white',
+    bg: { r: 150, g: 100, b: 100 },
+    image: '/WAW.jpg',
+    friends: [
+      { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
+      { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
+      { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
+    ]
+  },
   {
     category: 'Europe',
     title: 'Amsterdam',
@@ -50,6 +66,22 @@ const destinations = [
   },
   {
     category: 'Europe',
+    title: 'Barcelona',
+    description: `Plan your holiday in Barcelona! Numerous gardens, parks and 4.5 km of beaches give the capital of
+    Catalonia an advantage over other cities. You can spend time here in many ways: by swimming,
+    fishing, cycling, sunbathing, as well as exploring the historic old town. After an intense day, go to one
+    of the restaurants and enjoy the dishes made of fresh ingredients, usually caught the same day.`,
+    color: 'white',
+    bg: { r: 150, g: 100, b: 100 },
+    image: '/BCN.jpg',
+    friends: [
+      { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
+      { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
+      { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
+    ]
+  },
+  {
+    category: 'Poland',
     title: 'Zielona Góra',
     description: `Flight to Zielona Góra is an ideal opportunity to catch the sun in the bosom of nature. The Lubuskie
     Voivodeship offers unusual facilities. Among them there are the bat parks, where are 30,000
