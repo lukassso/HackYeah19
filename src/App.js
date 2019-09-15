@@ -10,10 +10,20 @@ function App() {
   const [selectedCategory, select] = useState('Poland')
   const visibleDestinations = destinations.filter(d => d.category === selectedCategory)
   visibleDestinations.reverse()
+
+  const [y, setY] = useState('44px')
+
+  const fly = ({ target }) => {
+    const rect = target.getBoundingClientRect()
+    setY(`${Math.round(rect.top + 20)}px`)
+  }
+
   return (
     <div className="App">
+      <Airplane x='85%' y={y} />
       <GuidePage
         onCategoryChange={select}
+        onMouseEnter={fly}
         categories={categories}
         destinations={visibleDestinations} />
       {/* <Panel background='white' color='black'>
