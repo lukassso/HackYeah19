@@ -55,7 +55,8 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
   },
   {
     category: 'Europe',
@@ -72,7 +73,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
+
   },
   {
     category: 'Europe',
@@ -88,7 +91,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
+
   },
   {
     category: 'Poland',
@@ -103,7 +108,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
+
   },
   {
     category: 'Asia',
@@ -121,7 +128,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/5/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/6/', name: 'John' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
+
   },
   {
     category: 'Asia',
@@ -141,7 +150,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/9/', name: 'John' },
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
-    ]
+    ],
+    price: '1250 PLN'
+
   },
   {
     category: 'Asia',
@@ -157,7 +168,9 @@ const destinations = [
       { avatar: 'http://lorempixel.com/50/50/people/1/', name: 'Maria' },
       { avatar: 'http://lorempixel.com/50/50/people/2/', name: 'Tobias' },
       { avatar: 'http://lorempixel.com/50/50/people/3/', name: 'John' },
-    ]
+    ],
+    price: '1250 PLN'
+
   }
 ]
 
